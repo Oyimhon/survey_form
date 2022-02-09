@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(images/photo-1550850839-8dc894ed385a.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(6px);
+}
+.heading {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+}
+.subheading {
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1 {
+  margin: auto;
+  width: 90%;  
+}
+form {
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 60px;
+}
+form .box {
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    border:0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    border:0;
+    border-radius: 5px;
+}

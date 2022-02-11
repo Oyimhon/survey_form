@@ -7,6 +7,10 @@ body {
     background-size: cover;
     background-attachment: fixed;
     backdrop-filter: blur(6px);
+    background-color: rgba(57, 179, 250, 0.7);
+    background-blend-mode: multiply;
+    font-size: 1/1em;
+    
 }
 .heading {
     text-align: center;
@@ -38,11 +42,54 @@ form .box {
     position: relative;
     border:0;
     border-radius: 5px;
-}
-#option1 select{
+} 
+#option1 select {
     width: 98.5%;
     height: 2.8em;
     position: relative;
     border:0;
     border-radius: 5px;
+}
+#option2 select {
+    width: 98.5%;
+    height: 2.7em;
+    position: relative;
+    border:0;
+    border-radius: 5px;
+    top: 10px;
+}
+#content2 {
+    margin-top: 10px;
+    width: 90%;  
+  }
+#content2 textarea {
+width: 98.5%;
+height: 125px;
+position: relative;
+bottom: 17px;
+}
+#submit {
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top: 11px;
+    background-color: rgb(18, 219, 78);
+    border: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    cursor: pointer;    
+}
+textarea::placeholder {
+font-size: 1.4em;
+position: relative;
+top: 8px;
+left: 5px;
+width: 70%;
+}
+input::placeholder {
+ font-size: 1.1em;
+ position: relative;
+ left: 10px;
+ width: 50%;
+ font-weight: 500;   
 }

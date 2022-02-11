@@ -6,11 +6,10 @@ body {
     background-image: url(images/photo-1550850839-8dc894ed385a.jpg);
     background-size: cover;
     background-attachment: fixed;
-    backdrop-filter: blur(6px);
     background-color: rgba(57, 179, 250, 0.7);
     background-blend-mode: multiply;
-    font-size: 1/1em;
-    
+    font-size: 18px;
+    height: 100vh;
 }
 .heading {
     text-align: center;
@@ -29,12 +28,15 @@ body {
 form {
     padding-top: 34px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 54%;
     border-radius: 5px;
-    margin-top: 10px;
+    margin: 10px auto 0;
     padding-bottom: 60px;
+    color: #fff;
+    background-color: rgba(0,0,0, 0.4);
 }
 form .box {
     width: 98.5%;

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Playfair+Display:wght@400;900&family=Poppins&family=Roboto:wght@100;400&family=Yeseva+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,10 @@ body {
     background-blend-mode: multiply;
     font-size: 18px;
     height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h3 {
+    color: #fff;
 }
 .heading {
     text-align: center;
@@ -17,11 +22,15 @@ body {
     margin: auto;
     margin-top: 100px;
 }
+.head1 {
+  display: flex;
+  flex-direction: column;
+}
 .subheading {
     font-size: 18px;
     margin-top: 10px;
 }
-#content1 {
+#content1, {
   margin: auto;
   width: 90%;  
 }
